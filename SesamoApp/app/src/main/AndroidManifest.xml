@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edipo.sesamoapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ActMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Casos"
+            android:label="@string/title_activity_casos" >
+        </activity>
+        <activity
+            android:name=".Criar_novo_caso"
+            android:label="@string/title_activity_criar_novo_caso" >
+        </activity>
+        <activity
+            android:name=".Adicionar_pessoas_ao_caso"
+            android:label="@string/title_activity_adicionar_pessoas_ao_caso" >
+        </activity>
+        <activity
+            android:name=".Chat"
+            android:label="@string/title_activity_chat" >
+        </activity>
+        <activity
+            android:name=".Perfil_do_caso"
+            android:label="@string/title_activity_perfil_do_caso" >
+        </activity>
+    </application>
+
+</manifest>
